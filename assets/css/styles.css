@@ -50,7 +50,7 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 
-    /*========== z index ==========*/
+     /*========== z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
@@ -155,7 +155,19 @@ img {
 }
 
 /*==================== NAV ====================*/
+.nav{
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
 
+.nav__logo,
+.nav__toggle {
+    display: flex;
+    align-items: center;
+}
 
 /* show menu */
 
