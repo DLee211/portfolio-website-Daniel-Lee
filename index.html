@@ -13,7 +13,7 @@
 
     <title>Portfolio Website</title>
 </head>
-<body>
+<>
 <!--==================== HEADER ====================-->
 <header class="header" id="header">
     <nav class="nav container">
@@ -169,7 +169,6 @@
 <section class="skills section" id="skills">
     <h2 class="section__title">Skills</h2>
     <span class="section__subtitle">My technical level</span>
-
     <div class="skills__container container grid">
         <div>
             <!--=============== SKILLS 1 ===============-->
@@ -600,24 +599,6 @@
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 </section>
 
-<!--==================== PROJECT IN MIND ====================-->
-<section class="project section">
-    <div class="project__bg">
-        <div class="project__container container grid">
-            <div class="project__data">
-                <h2 class="project__title">You have a new project</h2>
-                <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
-                <a href="#" class="button button--flex button--white">
-                    Contact Me
-                    <i class="uil uil-message button__icon"></i>
-                </a>
-            </div>
-
-            <img src="/assets/img/project.png" alt="" class="project__img">
-        </div>
-    </div>
-</section>
-
 <!--==================== TESTIMONIAL ====================-->
 <section class="testimonial section">
     <h2 class="section__title">Testimonial</h2>
@@ -648,94 +629,92 @@
                 out my project with all the possible quality and attention and
                 support 24 hours a day.
             </p>
-        </div><div class="testimonial__content swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" role="group" aria-label="2 / 7" style="width: 360px; margin-right: 48px;">
-            <div class="testimonial__data">
-                <div class="testimonial__header">
-                    <img src="/assets/img/testimonial3.jpg" alt="" class="testimonial__img">
-
+        </div>
+            <div class="testimonial__content swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" role="group" aria-label="2 / 7" style="width: 360px; margin-right: 48px;">
+                <div class="testimonial__data">
+                    <div class="testimonial__header">
+                        <img src="/assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                        <div>
+                            <h3 class="testimonial__name">Raul Harris</h3>
+                            <span class="testimonial__client">Client</span>
+                        </div>
+                    </div>
                     <div>
-                        <h3 class="testimonial__name">Raul Harris</h3>
-                        <span class="testimonial__client">Client</span>
+                        <i class="uil uil-star testimonial__icon-star"></i>
+                        <i class="uil uil-star testimonial__icon-star"></i>
+                        <i class="uil uil-star testimonial__icon-star"></i>
+                        <i class="uil uil-star testimonial__icon-star"></i>
+                        <i class="uil uil-star testimonial__icon-star"></i>
                     </div>
                 </div>
+                <p class="testimonial__description">I get a good impression, I carry
+                out my project with all the possible quality and attention and
+                support 24 hours a day.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+            <!--==================== CONTACT ME ====================-->
+<section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get In Touch</span>
 
+    <div class="contact__container container grid">
+        <div>
+            <div class="contact__information">
+                <i class="uil uil-phone contact__icon"></i>
                 <div>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
-                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <h3 class="contact__title">Call Me</h3>
+                    <span class="contact__subtitle">856-361-6318</span>
                 </div>
             </div>
 
-            <p class="testimonial__description">I get a good impression, I carry
-                out my project with all the possible quality and attention and
-                support 24 hours a day.
-            </p>
+            <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">daniel.lee1921@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contact__subtitle">Peru - Lima Av. Bolivar #123</span>
+                </div>
+            </div>
         </div>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get In Touch</span>
-
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Call Me</h3>
-                                <span class="contact__subtitle">856-361-6318</span>
-                            </div>
-                        </div>
-
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">daniel.lee1921@gmail.com</span>
-                            </div>
-                        </div>
-
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">Peru - Lima Av. Bolivar #123</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
-                            </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
-
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </form>
+        <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+                <div class="contact__content">
+                    <label for="" class="contact__label">Name</label>
+                    <input type="text" class="contact__input">
                 </div>
-
-            </section>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Email</label>
+                    <input type="email" class="contact__input">
+                </div>
+            </div>
+            <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="text" class="contact__input">
+            </div>
+            <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+            </div>
+            <div>
+                <a href="#" class="button button--flex">
+                    Send Message
+                    <i class="uil uil-message button__icon"></i>
+                </a>
+            </div>
+        </form>
+    </div>
+</section>
 
             <!--==================== FOOTER ====================-->
 <footer class="footer">
@@ -782,12 +761,8 @@
 </a>
 
 <!--==================== SWIPER JS ====================-->
-<script src="/assets/js/swiper-bundle.min.js"></script>
-
+            <script src="/assets/js/swiper-bundle.min.js"></script>
 <!--==================== MAIN JS ===========-->
-<script src="/assets/js/main.js"></script>
-        </div>
-    </div>
-</section>
+            <script src="/assets/js/main.js"></script>
 </body>
 </html>
